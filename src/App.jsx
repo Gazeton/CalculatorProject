@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <h1>Kalkulator</h1>
+      <Calculator />
     </div>
   );
 }
