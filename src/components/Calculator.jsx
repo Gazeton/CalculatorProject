@@ -35,7 +35,7 @@ export default function Calculator() {
       </div>
 
       <div className="buttons">
-        {["1","2","3","+"].map(v => (
+        {["1","2","33","+"].map(v => (
           <button key={v} onClick={() => add(v)}>{v}</button>
         ))}
         {["4","5","6","-"].map(v => (
@@ -61,3 +61,4 @@ export default function Calculator() {
     </div>
   );
 }
+
